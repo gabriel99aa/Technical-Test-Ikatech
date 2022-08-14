@@ -68,6 +68,7 @@
 .serch{
     margin-bottom: 15px;
     width: 60%;
+    max-width: 200px;
     height: 1.5rem;
 }
 
