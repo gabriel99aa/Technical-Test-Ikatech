@@ -1,6 +1,7 @@
 import React from "react";
 import { IoHeart } from "react-icons/io5";
 import "./style.css";
+import DB from "../../DB";
 
 const DescriptionProduct = () => {
   return (
@@ -8,7 +9,7 @@ const DescriptionProduct = () => {
       <div className="maincontainer">
         <div className="view">
           <div className="imagen">
-            <img src="imgCalzado/1.jpg" alt="img" />
+            <img src={DB[0].foto} alt="img" />
           </div>
           <div className="chose">
             <div>
