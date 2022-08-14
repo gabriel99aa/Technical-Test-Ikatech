@@ -1,0 +1,75 @@
+.maincontainer{
+    width: 70%;
+    height: auto;
+    margin: 20px auto;
+}
+
+.view{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.chose{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.size{
+    background-color: rgb(182, 182, 182);
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 1px 2px rgba(92, 99, 105, .2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acciones{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+}
+
+.buttonCarrito{
+    border: none;
+    background-color: rgb(90, 49, 74);
+    color: #fff;
+    padding: 10px;
+    box-shadow: 0 1px 2px rgba(92, 99, 105, .2);
+}
+
+.buttonCarrito:hover{
+    background-color: rgba(90, 49, 74, 0.6);
+}
+
+.boxLike{
+    display: grid;
+    justify-content: right;
+    
+}
+
+.like{
+    background-color: #fff;
+    border: none;
+    color: rgb(142, 142, 142);
+    padding: 0px;
+    font-size: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guia{
+    font-size: 0.8rem;
+}
+
+.guia:hover{
+    color: rgba(90, 49, 74, 0.6);
+}
+
+.texto{
+    margin: 15px 0;
+}
