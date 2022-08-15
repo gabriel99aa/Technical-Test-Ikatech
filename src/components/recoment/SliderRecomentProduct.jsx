@@ -5,13 +5,12 @@ import DB from "../../DB";
 import "./style.css";
 
 const SliderRecomentProduct = () => {
-
   const [width, setWidth] = useState(0);
   const carousel = useRef();
 
   useEffect(() => {
     setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
-  }, [])
+  }, []);
 
   return (
     <>
@@ -19,9 +18,17 @@ const SliderRecomentProduct = () => {
         <div className="title1">
           <h2>PRODUCTOS RECOMENDADOS</h2>
         </div>
-        <motion.div ref={carousel} whileTap={{cursor: 'grabbing'}} className="carousel">
-          <motion.div drag="x" dragConstraints={{right:0, left: -width}} className="inner-carousel">
-          {DB.map((DB) => {
+        <motion.div
+          ref={carousel}
+          whileTap={{ cursor: "grabbing" }}
+          className="carousel"
+        >
+          <motion.div
+            drag="x"
+            dragConstraints={{ right: 0, left: -width }}
+            className="inner-carousel"
+          >
+            {DB.map((DB) => {
               return (
                 <motion.div className="item" key={DB.referencia}>
                   <div className="boxFoto">
@@ -30,9 +37,7 @@ const SliderRecomentProduct = () => {
                   <button className="link">{DB.nombre}</button>
                   <br />
                   <h4>{DB.precio}</h4>
-                  <br />
-                  <button className="buttonCarrito">AÑADIR AL CARRITO</button>
-                  <hr/>
+                  <hr />
                 </motion.div>
               );
             })}
@@ -40,7 +45,7 @@ const SliderRecomentProduct = () => {
         </motion.div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default SliderRecomentProduct
+export default SliderRecomentProduct;

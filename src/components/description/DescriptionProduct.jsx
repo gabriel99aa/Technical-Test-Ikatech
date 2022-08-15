@@ -13,14 +13,43 @@ const DescriptionProduct = () => {
           </div>
           <div className="chose">
             <div>
-              <h3>ZAPATILLA HOMBRE</h3>
-              <h4>$40.000</h4>
-              <p>sdvnaksd-a23857</p>
+              <h2>{DB[0].nombre}</h2>
+              <h4>{DB[0].precio}</h4>
+              <p>{DB[0].referencia}</p>
             </div>
 
             <h6>TALLA</h6>
             <div className="talla">
-              <div className="size">6</div>
+              <div className="size">
+                <p>6</p>
+              </div>
+              <div className="size">
+                <p>6.5</p>
+              </div>
+              <div className="size">
+                <p>7</p>
+              </div>
+              <div className="size">
+                <p>7.5</p>
+              </div>
+              <div className="size">
+                <p>8</p>
+              </div>
+              <div className="size">
+                <p>8.5</p>
+              </div>
+              <div className="size">
+                <p>9</p>
+              </div>
+              <div className="size">
+                <p>9.5</p>
+              </div>
+              <div className="size">
+                <p>10</p>
+              </div>
+              <div className="size">
+                <p>11</p>
+              </div>
             </div>
 
             <p className="guia">GUÍA DE TALLAS</p>
@@ -42,17 +71,7 @@ const DescriptionProduct = () => {
             <hr />
           </div>
           <div className="texto">
-            <p>
-              is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book. It has survived not
-              only five centuries, but also the leap into electronic
-              typesetting, remaining essentially unchanged. It was popularised
-              in the 1960s with the release of Letraset sheets containing Lorem
-              Ipsum passages, and more recently with desktop publishing software
-              like Aldus PageMaker including versions of Lorem Ipsum.
-            </p>
+            <p>{DB[0].detalle}</p>
           </div>
         </div>
         <div className="tecnologias">
@@ -61,13 +80,7 @@ const DescriptionProduct = () => {
             <hr />
           </div>
           <div className="texto">
-            <p>
-              is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book. It has survived not
-              only five centuries.
-            </p>
+            <p>{DB[0].tecnologias}</p>
           </div>
         </div>
       </div>
