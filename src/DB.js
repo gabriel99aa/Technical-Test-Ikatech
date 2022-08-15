@@ -21,7 +21,7 @@ import imagen20 from "./imgCalzado/20.jpg";
 const DB =[
     {
         "nombre": "Zapato azul",
-        "precio": 5000,
+        "precio": "$65.000",
         "referencia": "G4kvbna",
         "foto": imagen1,
         "talla": [6,6.5,7,7.5,8,8.5,9,9.5,10,11],
@@ -31,7 +31,7 @@ const DB =[
     },
     {
         "nombre": "Zapato rojo",
-        "precio": 5000,
+        "precio": "$180.000",
         "referencia": "G40",
         "foto": imagen2,
         "talla": [7.5,8,8.5,9,9.5,10,11],
@@ -41,7 +41,7 @@ const DB =[
     },
     {
         "nombre": "Zapato verde",
-        "precio": 5000,
+        "precio": "$180.000",
         "referencia": "aosdnf",
         "foto": imagen3,
         "talla": [6,6.5,7,7.5,8,10,11],
@@ -51,7 +51,7 @@ const DB =[
     },
     {
         "nombre": "Zapato gris",
-        "precio": 5000,
+        "precio": "$199.000",
         "referencia": "aopsdigj",
         "foto": imagen4,
         "talla": [6,6.5,7,7.5,8,8.5,9,9.5,10,11],
@@ -61,7 +61,7 @@ const DB =[
     },
     {
         "nombre": "Zapato cafe",
-        "precio": 5000,
+        "precio": "$200.000",
         "referencia": "aopeifn",
         "foto": imagen5,
         "talla": [6,6.5,8,8.5,9,9.5,10,11],
@@ -71,7 +71,7 @@ const DB =[
     },
     {
         "nombre": "Zapato miel",
-        "precio": 5000,
+        "precio": "99.000",
         "referencia": "aweopfgj",
         "foto": imagen6,
         "talla": [8,8.5,9,9.5,10,11],
@@ -81,7 +81,7 @@ const DB =[
     },
     {
         "nombre": "Zapato aguamarina",
-        "precio": 5000,
+        "precio": "$70.000",
         "referencia": "q0-934ur",
         "foto": imagen7,
         "talla": [6,6.5,7,7.5,8,8.5,9,9.5,10,11],
@@ -91,7 +91,7 @@ const DB =[
     },
     {
         "nombre": "Zapato piel",
-        "precio": 5000,
+        "precio": "$210.000",
         "referencia": "q02348tyh",
         "foto": imagen8,
         "talla": [6,6.5,7,7.5,8,8.5,9,9.5,10,11],
@@ -101,7 +101,7 @@ const DB =[
     },
     {
         "nombre": "Zapato perla",
-        "precio": 5000,
+        "precio": "$202.000",
         "referencia": "q04389tuj",
         "foto": imagen9,
         "talla": [6,6.5,7,7.5,8,8.5,9,9.5,10,11],
@@ -111,7 +111,7 @@ const DB =[
     },
     {
         "nombre": "Zapato marinado",
-        "precio": 5000,
+        "precio": "$200.000",
         "referencia": "q240894ut",
         "foto": imagen10,
         "talla": [7,7.5,8,9.5,10,11],
@@ -121,7 +121,7 @@ const DB =[
     },
     {
         "nombre": "Zapato azul1",
-        "precio": 5000,
+        "precio": "$99.000",
         "referencia": "q240j890",
         "foto": imagen11,
         "talla": [9.5,10,11],
@@ -131,7 +131,7 @@ const DB =[
     },
     {
         "nombre": "Zapato azul3",
-        "precio": 5000,
+        "precio": "$90.000",
         "referencia": "qpw4iogm08",
         "foto": imagen13,
         "talla": [6,8,8.5,9,9.5,10,11],
@@ -141,7 +141,7 @@ const DB =[
     },
     {
         "nombre": "Zapato azul4",
-        "precio": 5000,
+        "precio": "$120.000",
         "referencia": "qop4itm80",
         "foto": imagen14,
         "talla": [6,6.5,7,10,11],
@@ -151,7 +151,7 @@ const DB =[
     },
     {
         "nombre": "Zapato azul5",
-        "precio": 5000,
+        "precio": "$160.000",
         "referencia": "2o4t-m8",
         "foto": imagen15,
         "talla": [6,6.5,7,7.5,8,8.5],
@@ -161,7 +161,7 @@ const DB =[
     },
     {
         "nombre": "Zapato azul6",
-        "precio": 5000,
+        "precio": "$190.000",
         "referencia": "wop43itj0",
         "foto": imagen16,
         "talla": [6,9,9.5,10,11],
@@ -171,7 +171,7 @@ const DB =[
     },
     {
         "nombre": "Zapato azul7",
-        "precio": 5000,
+        "precio": "$100.000",
         "referencia": "4-lj-t",
         "foto": imagen17,
         "talla": [7.5,8,8.5,9,9.5,10],
@@ -181,7 +181,7 @@ const DB =[
     },
     {
         "nombre": "Zapato azul8",
-        "precio": 5000,
+        "precio": "$140.000",
         "referencia": "qklwerfn8924",
         "foto": imagen18,
         "talla": [8,8.5,9,9.5,10,11],
@@ -191,7 +191,7 @@ const DB =[
     },
     {
         "nombre": "Zapato azul9",
-        "precio": 5000,
+        "precio": "$205.000",
         "referencia": "34ot9",
         "foto": imagen19,
         "talla": [6,6.5,7,7.5,8,8.5,9],
@@ -201,7 +201,7 @@ const DB =[
     },
     {
         "nombre": "Zapato azul10",
-        "precio": 5000,
+        "precio": "$150.000",
         "referencia": "qow4jg99444",
         "foto": imagen20,
         "talla": [6,6.5,7,9,9.5,10,11],

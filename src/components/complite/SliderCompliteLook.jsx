@@ -32,6 +32,7 @@ const SliderCompliteLook = () => {
                   <h4>{DB.precio}</h4>
                   <br />
                   <button className="buttonCarrito">AÑADIR AL CARRITO</button>
+                  <hr/>
                 </motion.div>
               );
             })}

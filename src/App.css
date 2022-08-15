@@ -48,14 +48,19 @@ body{
 
 .item{
     min-width: 250px;
-    box-shadow: 0px 10px 10px rgba(92, 99, 105, .2);
+    box-shadow: 0px 10px 10px 0px  rgba(92, 99, 105, .2);
+    
     margin: 0 10px;
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.item h4{
+    color: rgb(119, 0, 73);
 }
 
 .boxFoto{
