@@ -1,8 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
+import {cargarDetalle} from "../../actions/calzadoActions";
+import {useDispatch} from "react-redux";
 import DB from "../../DB";
 import "./style.css";
+
+const {products} = DB;
 
 const SliderCompliteLook = () => {
 
@@ -13,6 +17,8 @@ const SliderCompliteLook = () => {
     setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
   }, [])
 
+  const dispatch = useDispatch();
+
   return (
     <>
       <div className="superContainer">
@@ -21,15 +27,15 @@ const SliderCompliteLook = () => {
         </div>
         <motion.div ref={carousel} whileTap={{cursor: 'grabbing'}} className="carousel">
           <motion.div drag="x" dragConstraints={{right:0, left: -width}} className="inner-carousel">
-            {DB.map((DB) => {
+            {products.map((products) => {
               return (
-                <motion.div className="item" key={DB.referencia}>
+                <motion.div className="item" key={products.referencia}>
                   <div className="boxFoto">
-                    <img src={DB.foto} alt="foto" className="foto" />
+                    <img src={products.foto} alt="foto" className="foto" />
                   </div>
-                  <button className="link">{DB.nombre}</button>
+                  <button onClick={() => dispatch(cargarDetalle(products))} className="link">{products.nombre}</button>
                   <br />
-                  <h4>{DB.precio}</h4>
+                  <h4>{products.precio}</h4>
                   <br />
                   <button className="buttonCarrito">AÑADIR AL CARRITO</button>
                   <hr/>

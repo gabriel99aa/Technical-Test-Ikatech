@@ -1,5 +1,8 @@
-import { combineReducers } from "Redux";
+import { combineReducers } from "redux";
+import calzadoReducer from "./calzado";
 
-const reducer = combineReducers({});
+const reducer = combineReducers({
+    calzado: calzadoReducer
+});
 
 export default reducer;

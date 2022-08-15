@@ -1,21 +1,26 @@
 import React from "react";
+import {useSelector} from "react-redux";
+
 import { IoHeart } from "react-icons/io5";
 import "./style.css";
-import DB from "../../DB";
 
 const DescriptionProduct = () => {
+
+  const state = useSelector((state) => state);
+  const {products} = state.calzado;
+
   return (
     <>
       <div className="maincontainer">
         <div className="view">
           <div className="imagen">
-            <img src={DB[0].foto} alt="img" />
+            <img src={products[0].foto} alt="img" />
           </div>
           <div className="chose">
             <div>
-              <h2>{DB[0].nombre}</h2>
-              <h4>{DB[0].precio}</h4>
-              <p>{DB[0].referencia}</p>
+              <h2>{products[0].nombre}</h2>
+              <h4>{products[0].precio}</h4>
+              <p>{products[0].referencia}</p>
             </div>
 
             <h6>TALLA</h6>
@@ -71,7 +76,7 @@ const DescriptionProduct = () => {
             <hr />
           </div>
           <div className="texto">
-            <p>{DB[0].detalle}</p>
+            <p>{products[0].detalle}</p>
           </div>
         </div>
         <div className="tecnologias">
@@ -80,7 +85,7 @@ const DescriptionProduct = () => {
             <hr />
           </div>
           <div className="texto">
-            <p>{DB[0].tecnologias}</p>
+            <p>{products[0].tecnologias}</p>
           </div>
         </div>
       </div>
