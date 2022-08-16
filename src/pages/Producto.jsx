@@ -1,20 +1,16 @@
-import React from 'react';
-import Header from '../components/header/Header';
+import React from "react";
 import DescriptionProduct from "../components/description/DescriptionProduct";
 import SliderCompliteLook from "../components/complite/SliderCompliteLook";
-import SliderRecomentProduct from '../components/recoment/SliderRecomentProduct';
-import Footer from '../components/footer/Footer';
+import SliderRecomentProduct from "../components/recoment/SliderRecomentProduct";
 
 const Producto = () => {
   return (
     <>
-        <Header/>
-        <DescriptionProduct/>
-        <SliderCompliteLook/>
-        <SliderRecomentProduct/>
-        <Footer/>
+      <DescriptionProduct />
+      <SliderCompliteLook />
+      <SliderRecomentProduct />
     </>
-  )
-}
+  );
+};
 
-export default Producto
+export default Producto;
