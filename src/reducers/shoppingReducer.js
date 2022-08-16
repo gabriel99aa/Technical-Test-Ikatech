@@ -18,7 +18,7 @@ export default function shoppingCarReducer(state = initialState, action) {
       let newData = action.payload;
       console.log(newData)
       return {
-        total:  [{...state.totalCompra + newData}]
+        total:  [{...state.totalCompra + { ...newData, quantity: 1 }}]
       };
     }
 

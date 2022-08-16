@@ -1,6 +1,5 @@
 import React from "react";
 import {useDispatch, useSelector} from "react-redux";
-
 import { IoHeart } from "react-icons/io5";
 import "./style.css";
 import { comprar } from "../../actions/calzadoActions";

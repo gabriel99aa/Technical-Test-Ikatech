@@ -55,10 +55,10 @@ const Header = () => {
           </div>
         </div>
         <div className="nav">
-          <Link to="">
+          <Link to="/">
             <p className="menuBoton">HOME</p>
           </Link>
-          <Link to="/">
+          <Link to="/calzado">
             <p className="menuBoton">CALZADO</p>
           </Link>
         </div>

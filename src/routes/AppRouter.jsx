@@ -8,6 +8,7 @@ import Calzado from "../pages/Calzado";
 //components
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
+import Home from "../pages/Home";
 
 const AppRouter = () => {
   return (
@@ -15,7 +16,8 @@ const AppRouter = () => {
       <Router>
         <Header />
         <Routes>
-          <Route exact path="/" element={<Calzado />} />
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/calzado" element={<Calzado />} />
           <Route exact path="/producto" element={<Producto />} />
         </Routes>
         <Footer />
