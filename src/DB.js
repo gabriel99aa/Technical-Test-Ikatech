@@ -22,7 +22,7 @@ const DB = {
   products: [
     {
       nombre: "Zapato azul",
-      precio: "$65.000",
+      precio: 65000,
       referencia: "Gsebkvbna",
       foto: imagen1,
       detalle:
@@ -32,7 +32,7 @@ const DB = {
     },
     {
       nombre: "Zapato rojo",
-      precio: "$180.000",
+      precio: 180000,
       referencia: "G40",
       foto: imagen2,
       detalle:
@@ -42,7 +42,7 @@ const DB = {
     },
     {
       nombre: "Zapato verde",
-      precio: "$180.000",
+      precio: 180000,
       referencia: "aosdnf",
       foto: imagen3,
       detalle:
@@ -52,7 +52,7 @@ const DB = {
     },
     {
       nombre: "Zapato gris",
-      precio: "$199.000",
+      precio: 199000,
       referencia: "aopsdigj",
       foto: imagen4,
       detalle:
@@ -62,7 +62,7 @@ const DB = {
     },
     {
       nombre: "Zapato cafe",
-      precio: "$200.000",
+      precio: 200000,
       referencia: "aopeifn",
       foto: imagen5,
       detalle:
@@ -72,7 +72,7 @@ const DB = {
     },
     {
       nombre: "Zapato miel",
-      precio: "99.000",
+      precio: 99000,
       referencia: "aweopfgj",
       foto: imagen6,
       detalle:
@@ -82,7 +82,7 @@ const DB = {
     },
     {
       nombre: "Zapato aguamarina",
-      precio: "$70.000",
+      precio: 70000,
       referencia: "q0-934ur",
       foto: imagen7,
       detalle:
@@ -91,7 +91,7 @@ const DB = {
     },
     {
       nombre: "Zapato piel",
-      precio: "$210.000",
+      precio: 210000,
       referencia: "q02348tyh",
       foto: imagen8,
       detalle:
@@ -101,7 +101,7 @@ const DB = {
     },
     {
       nombre: "Zapato perla",
-      precio: "$202.000",
+      precio: 202000,
       referencia: "q04389tuj",
       foto: imagen9,
       detalle:
@@ -111,7 +111,7 @@ const DB = {
     },
     {
       nombre: "Zapato marinado",
-      precio: "$200.000",
+      precio: 200000,
       referencia: "q240894ut",
       foto: imagen10,
       detalle:
@@ -121,7 +121,7 @@ const DB = {
     },
     {
       nombre: "Zapato azul1",
-      precio: "$99.000",
+      precio: 99000,
       referencia: "q240j890",
       foto: imagen11,
       detalle:
@@ -131,7 +131,7 @@ const DB = {
     },
     {
       nombre: "Zapato azul3",
-      precio: "$90.000",
+      precio: 90000,
       referencia: "qpw4iogm08",
       foto: imagen13,
       detalle:
@@ -141,7 +141,7 @@ const DB = {
     },
     {
       nombre: "Zapato azul4",
-      precio: "$120.000",
+      precio: 120000,
       referencia: "qop4itm80",
       foto: imagen14,
       detalle:
@@ -151,7 +151,7 @@ const DB = {
     },
     {
       nombre: "Zapato azul5",
-      precio: "$160.000",
+      precio: 160000,
       referencia: "2o4t-m8",
       foto: imagen15,
       detalle:
@@ -161,7 +161,7 @@ const DB = {
     },
     {
       nombre: "Zapato azul6",
-      precio: "$190.000",
+      precio: 190000,
       referencia: "wop43itj0",
       foto: imagen16,
       detalle:
@@ -171,7 +171,7 @@ const DB = {
     },
     {
       nombre: "Zapato azul7",
-      precio: "$100.000",
+      precio: 100000,
       referencia: "4-lj-t",
       foto: imagen17,
       detalle:
@@ -181,7 +181,7 @@ const DB = {
     },
     {
       nombre: "Zapato azul8",
-      precio: "$140.000",
+      precio: 140000,
       referencia: "qklwerfn8924",
       foto: imagen18,
       detalle:
@@ -191,7 +191,7 @@ const DB = {
     },
     {
       nombre: "Zapato azul9",
-      precio: "$205.000",
+      precio: 205000,
       referencia: "34ot9",
       foto: imagen19,
       detalle:
@@ -201,7 +201,7 @@ const DB = {
     },
     {
       nombre: "Zapato azul10",
-      precio: "$150.000",
+      precio: 150000,
       referencia: "qow4jg99444",
       foto: imagen20,
       detalle:

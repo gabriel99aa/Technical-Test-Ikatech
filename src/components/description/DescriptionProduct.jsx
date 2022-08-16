@@ -1,13 +1,16 @@
 import React from "react";
-import {useSelector} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 
 import { IoHeart } from "react-icons/io5";
 import "./style.css";
+import { comprar } from "../../actions/calzadoActions";
 
 const DescriptionProduct = () => {
 
   const state = useSelector((state) => state);
   const {products} = state.calzado;
+
+  const dispatch = useDispatch();
 
   return (
     <>
@@ -19,7 +22,7 @@ const DescriptionProduct = () => {
           <div className="chose">
             <div>
               <h2>{products[0].nombre}</h2>
-              <h4>{products[0].precio}</h4>
+              <h4>{`$ ${products[0].precio}`}</h4>
               <p>{products[0].referencia}</p>
             </div>
 
@@ -60,7 +63,7 @@ const DescriptionProduct = () => {
             <p className="guia">GUÍA DE TALLAS</p>
             <div className="acciones">
               <div className="boxButtonCarrito">
-                <button className="buttonCarrito">AÑADIR AL CARRITO</button>
+                <button onClick={() => dispatch(comprar(products[0]))} className="buttonCarrito">AÑADIR AL CARRITO</button>
               </div>
               <div className="boxLike">
                 <button className="like">

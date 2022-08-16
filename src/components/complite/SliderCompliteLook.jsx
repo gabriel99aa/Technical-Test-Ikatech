@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
-import {cargarDetalle} from "../../actions/calzadoActions";
+import {cargarDetalle, comprar} from "../../actions/calzadoActions";
 import {useDispatch} from "react-redux";
 import DB from "../../DB";
 import "./style.css";
@@ -35,10 +35,10 @@ const SliderCompliteLook = () => {
                   </div>
                   <button onClick={() => dispatch(cargarDetalle(products))} className="link">{products.nombre}</button>
                   <br />
-                  <h4>{products.precio}</h4>
+                  <h4>{`$ ${products.precio}`}</h4>
                   <br />
-                  <button className="buttonCarrito">AÑADIR AL CARRITO</button>
-                  <hr/>
+                  <button onClick={() => dispatch(comprar(products))} className="buttonCarrito">AÑADIR AL CARRITO</button>
+                  <hr className="hr"/>
                 </motion.div>
               );
             })}

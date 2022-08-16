@@ -40,6 +40,10 @@
     align-items: center;
 }
 
+.size p{
+    margin: auto;
+}
+
 .size:hover{
     background-color: rgb(226, 226, 226);
 }
@@ -72,6 +76,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.like:hover{
+    color: rgb(255, 0, 0);
 }
 
 .guia{

@@ -42,8 +42,8 @@ const SliderRecomentProduct = () => {
                   </div>
                   <button onClick={() => dispatch(cargarDetalle(products))} className="link">{products.nombre}</button>
                   <br />
-                  <h4>{products.precio}</h4>
-                  <hr />
+                  <h4>{`$ ${products.precio}`}</h4>
+                  <hr className="hr"/>
                 </motion.div>
               );
             })}

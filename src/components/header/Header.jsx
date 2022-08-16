@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { IoCartOutline } from "react-icons/io5";
 
 import "./style.css";
+import Modal from "../modal/Modal";
+import CarritoModal from "../modal/CarritoModal";
 
 const Header = () => {
   return (
@@ -40,11 +42,12 @@ const Header = () => {
           </Link>
         </div>
         <div className="carritoBox">
-          <button className="carrito">
+          <button className="carrito" data-bs-toggle="modal" data-bs-target="#exampleModal" >
             <p>
               <IoCartOutline /> CARRITO
             </p>
           </button>
+          <Modal title="CARRITO DE COMPRAS" content={<CarritoModal/>} secondaryAction ="VACIAR CARRITO" primaryAction="PAGAR"/>
         </div>
       </div>
     </>

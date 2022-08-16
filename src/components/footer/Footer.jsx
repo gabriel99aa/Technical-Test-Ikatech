@@ -44,8 +44,8 @@ const Footer = () => {
           <br />
           <p>registrate para ser el primero en recibir nuestras noticias</p>
           <button className="email">
-            <div>
-              <p>E-MAIL</p>
+            <div >
+              <p className="textoEmail">E-MAIL</p>
             </div>
             <div className="next">
               <IoIosArrowForward />

@@ -6,7 +6,7 @@ export const initialState = {
   products: [
     {
       nombre: "Zapato azul",
-      precio: "$65.000",
+      precio: 65000,
       referencia: "Gsebkvbna",
       foto: imagen1,
       detalle:

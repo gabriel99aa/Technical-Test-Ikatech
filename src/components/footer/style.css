@@ -42,11 +42,18 @@
   margin: 10px 0px;
 
   display: grid;
-  align-content: center;
   grid-template-columns: 1fr 1fr;
+  align-content: center;
 
   background-color: #fff;
   border: 2px solid rgb(192, 192, 192)
+}
+
+.textoEmail{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin:auto;
 }
 
 .next{
