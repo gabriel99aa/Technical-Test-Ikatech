@@ -14,8 +14,20 @@ const Footer = () => {
         <h2>@IKATECH</h2>
         <hr className="line" />
         <div className="icons">
-          <IoLogoFacebook />
-          <IoLogoInstagram />
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.facebook.com/ikatechsolutions/"
+          >
+            <IoLogoFacebook />
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.instagram.com/ikatech/"
+          >
+            <IoLogoInstagram />
+          </a>
         </div>
       </div>
       <div className="info">
@@ -44,7 +56,7 @@ const Footer = () => {
           <br />
           <p>registrate para ser el primero en recibir nuestras noticias</p>
           <button className="email">
-            <div >
+            <div>
               <p className="textoEmail">E-MAIL</p>
             </div>
             <div className="next">

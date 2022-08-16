@@ -1,0 +1,11 @@
+.bigBox{
+    display: grid;
+    gap: 2rem;
+    margin: 30px 0px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
+    grid-template-rows: auto;
+}
+
+.efec:hover{
+    box-shadow: 0px 4px 4px 0px  rgba(92, 99, 105, .2);
+}

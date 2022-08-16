@@ -14,13 +14,34 @@ const Header = () => {
       </div>
       <div className="submenu">
         <div className="buttonBoxsubmenu">
-          <a href="#">DIRECTORIO DE TIENDAS</a>
+          <a
+            className="menuBoton"
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.google.com/maps/search/ikatech/@19.1069496,-74.5012117,3z/data=!3m1!4b1"
+          >
+            DIRECTORIO DE TIENDAS
+          </a>
         </div>
         <div className="buttonBoxsubmenu">
-          <a href="#">SERVICIO AL CLIENTE</a>
+          <a
+            className="menuBoton"
+            target="_blank"
+            rel="noreferrer"
+            href="https://ikatechsolutions.com/"
+          >
+            SERVICIO AL CLIENTE
+          </a>
         </div>
         <div className="plus">
-          <a href="#">MI CUENTA</a>
+          <a
+            className="menuBoton"
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/gabriel99aa"
+          >
+            MI CUENTA
+          </a>
         </div>
       </div>
       <div className="menu">
@@ -35,19 +56,28 @@ const Header = () => {
         </div>
         <div className="nav">
           <Link to="">
-            <p>HOME</p>
+            <p className="menuBoton">HOME</p>
           </Link>
-          <Link to="">
-            <p>CALZADO</p>
+          <Link to="/">
+            <p className="menuBoton">CALZADO</p>
           </Link>
         </div>
         <div className="carritoBox">
-          <button className="carrito" data-bs-toggle="modal" data-bs-target="#exampleModal" >
+          <button
+            className="carrito"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
             <p>
               <IoCartOutline /> CARRITO
             </p>
           </button>
-          <Modal title="CARRITO DE COMPRAS" content={<CarritoModal/>} secondaryAction ="VACIAR CARRITO" primaryAction="PAGAR"/>
+          <Modal
+            title="CARRITO DE COMPRAS"
+            content={<CarritoModal />}
+            secondaryAction="VACIAR CARRITO"
+            primaryAction="PAGAR"
+          />
         </div>
       </div>
     </>
